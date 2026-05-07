@@ -1,3 +1,10 @@
+python-ldap (3.4.4-1deepin1) unstable; urgency=medium
+
+  * Fix CVE-2025-61911: enforce str type for escape_filter_chars to
+    prevent LDAP injection attacks via crafted list/dict objects.
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 07 May 2026 19:58:16 +0800
+
 python-ldap (3.4.4-1) unstable; urgency=low
 
   * New upstream version 3.4.4
