@@ -1,3 +1,10 @@
+python-ldap (3.4.4-1deepin2) unstable; urgency=medium
+
+  * Fix CVE-2025-61912: correctly escape null bytes in escape_dn_chars
+    according to RFC 4514 to prevent client-side denial of service.
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 07 May 2026 20:02:44 +0800
+
 python-ldap (3.4.4-1deepin1) unstable; urgency=medium
 
   * Fix CVE-2025-61911: enforce str type for escape_filter_chars to
